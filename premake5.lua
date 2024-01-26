@@ -95,6 +95,7 @@ project "reactphysics3d"
 	removefiles { "source/foundation/unix/**.cpp" }
 	
 	includedirs{
+		"include",
 		"include/reactphysics3d/configuration.h",
 		"include/reactphysics3d/decimal.h",
 		"include/reactphysics3d/reactphysics3d.h",
